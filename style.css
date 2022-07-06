@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.m {
+    margin-bottom: 150px;
+}
+
+.background {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 350px;
+}
+
+.donate-now {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.donate-today {
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.donate-amounts {
+    display: flex;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.amount {
+    margin-right: 20px;
+    padding: 15px 20px;
+}
+
+.red-amount {
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: #FDE8E8;
+    color: tomato;
+}
