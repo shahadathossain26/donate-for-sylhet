@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 h3 {
@@ -43,12 +43,14 @@ h3 {
     text-align: center;
     padding-left: 350px;
     padding-right: 350px;
+    margin-bottom: 50px;
 }
 
 .donate-amounts {
     display: flex;
     margin-left: 350px;
     margin-right: 350px;
+    margin-bottom: 50px;
 }
 
 .amount {
@@ -61,4 +63,114 @@ h3 {
     border-radius: 5px;
     background-color: #FDE8E8;
     color: tomato;
+}
+
+.o-amount {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+
+#other-amount {
+    width: 100%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #EEEBEB;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.plans {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 11%;
+}
+
+.plan {
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 15px;
+    width: 30%;
+    padding: 50px 20px;
+    margin-right: 3%;
+
+
+}
+
+.plan1 {
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 15px;
+    padding: 50px 20px;
+    width: 30%;
+
+}
+
+.blue {
+    background-color: #DFF9F9;
+}
+
+.yellow {
+    background-color: #F9F7BB;
+}
+
+.pink {
+    background-color: #FAC6EC;
+}
+
+.bonus-mark {
+    display: flex;
+}
+
+.image {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.image img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.save-life {
+    width: 50%;
+    padding: 0px 40px;
+}
+
+.subscribe {
+    margin: 0 20%;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 15px;
+    background-image: linear-gradient(royalblue, skyblue);
+    padding: 50px 100px;
+    text-align: center;
+}
+
+#e-mail {
+    width: 37%;
+    padding: 12px 20px;
+    margin-right: -10px;
+    background-color: #D2D2C9;
+    border-radius: 5px;
+    border: none;
+
+
+
+}
+
+#submit {
+    width: 23%;
+    padding: 12px 20px;
+    background-color: #9DDEFC;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.footer-area {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: white;
 }
